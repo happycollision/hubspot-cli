@@ -6,7 +6,6 @@ const {
 } = require('../lib/commonOpts');
 const { trackCommandUsage } = require('../lib/usageTracking');
 const { logger } = require('@hubspot/cli-lib/logger');
-const { outputLogs } = require('@hubspot/cli-lib/lib/logs');
 const {
   getFunctionLogs,
   getLatestFunctionLog,
@@ -14,6 +13,7 @@ const {
 const { tailLogs } = require('../lib/serverlessLogs');
 const { loadAndValidateOptions } = require('../lib/validation');
 const { i18n } = require('../lib/lang');
+const { outputLogs } = require('../lib/logs');
 
 const i18nKey = 'cli.commands.logs';
 

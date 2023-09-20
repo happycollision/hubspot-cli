@@ -1,8 +1,8 @@
 const mockStdIn = require('mock-stdin');
-const { outputLogs } = require('@hubspot/cli-lib/lib/logs');
+const { outputLogs } = require('../logs');
 const { tailLogs } = require('../serverlessLogs');
 
-jest.mock('@hubspot/cli-lib/lib/logs');
+jest.mock('../logs');
 
 jest.useFakeTimers();
 

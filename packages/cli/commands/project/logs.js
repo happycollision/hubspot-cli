@@ -9,7 +9,7 @@ const {
 } = require('../../lib/commonOpts');
 const { trackCommandUsage } = require('../../lib/usageTracking');
 const { logger } = require('@hubspot/cli-lib/logger');
-// const { outputLogs } = require('@hubspot/cli-lib/lib/logs');
+// const { outputLogs } = require('../../lib/logs')
 const {
   fetchProject,
   fetchDeployComponentsMetadata,
